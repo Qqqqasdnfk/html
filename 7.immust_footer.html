@@ -1,0 +1,346 @@
+<html>
+    <head><title>div滿版背景應用</title>
+    <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>        <script>
+    $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                rtl: true
+            });
+        });
+    </script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+    <style>
+        /*top*/
+        .top{
+             background-color: white;
+        }
+        .top .container{
+            display: flex;
+            align-items: center;
+            padding:10px;
+            margin:auto;
+        }
+        .top .logo{
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .top .logo img{
+            width: 100px;
+            vertical-align: middle;
+        }
+        .top .top-nav{
+            font-size: 25px;
+            margin-left:auto;
+            font-weight: bold;
+        
+        }
+        .top .top-nav a{
+            text-decoration: none;
+        }
+        /* nav */
+        .nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        .nav li {
+            float: left;
+        }
+        .nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav li a:hover {
+            background-color: #111;
+            }
+        /*slider*/
+        #slider{
+          background-color: white;      
+        }
+        /*banner*/
+        #banner {
+                clear: both;
+                display: inline-block;
+                width: 100%;
+                background-color: Gray;
+                padding: 100px 0;
+                background-image: url(banner.jpg);
+                background-size: contain;
+                background-position: center;
+                overflow: hidden;
+        }
+        #banner .container{
+                display: block;
+                margin: auto;
+                max-width: 600px;
+                width: 100%;
+                color: white;
+                text-align: center;
+        }
+        /*faculty*/
+        #events {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+            #events .container{
+                display: inline-block;
+                max-width: 600px;
+                width: 100%;
+                color: white;
+            }
+            #events .container header{
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+                border-bottom: 1px solid rgba(216, 217, 218,1.00);
+            }
+            #events .container header h2{
+                color: rgba(50,51,52,1.00);
+                font-size: 25px;
+            }
+            #events .container .faculty{
+                display: inline-block;
+                width: 100%;
+                clear: both;
+            }
+            #events .container .faculty .teacher {
+                float: left;
+                display: inline-block;
+                position: relative;
+                width: calc(100% / 3 - 30px);
+                height: 200px;
+                overflow: hidden;
+                margin: 15px;
+            }
+            #events .container .faculty .teacher img{
+                width: 100%;                
+            }
+            #events .container .faculty .teacher span {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: inline-block;
+                width: 100%;
+                padding: 5px;
+                color: White;
+                background-color: rgba(39,40,34,.500);
+                text-align: center;
+            }
+            /*contact*/
+            #contact {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                
+            }
+            #contact .container{
+                display: inline-block;
+                max-width: 600px;
+                width: 100%;
+                color: white;
+            }
+            #contact .container header{
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+                border-bottom: 1px solid rgba(216, 217, 218,1.00);
+            }
+            #contact .container header h2{
+                color: rgba(50,51,52,1.00);
+                font-size: 25px;
+            }
+            #contact .container .infos{
+                margin-top: 30px; 
+                width: 100%;   
+                clear: both;
+                display: inline-block;
+            }
+            #contact .container .infos .left{
+                float: left;
+                display: inline-block;
+                position: relative;
+                width: calc(50%);
+                text-align: left;
+                #border: 1px solid rgba(255,0,0,1.00);
+            }
+            #contact .container .infos .left b{
+                display: inline-block;
+                width: 100%;
+                margin-top: 10px;
+                text-decoration: bold;
+                color: Gray;
+                font-size: 18px;
+                text-height: 18px;
+            }
+            #contact .container .infos .left span{
+                display: inline-block;
+                width: 100%;
+                margin-top: 10px;
+                color: rgba(39,40,34,.500);
+                font-size: 16px;
+                padding-left: 27px;
+            }
+            #contact .container .infos .right{
+                float: left;
+                display: inline-block;
+                position: relative;
+                width: calc(50%);
+                height: 200px;
+                
+            }
+             #contact .container .infos .right iframe{
+                width: 100%;
+                height: 100%;
+                border: 1px solid rgba(39,40,34,0.50);
+            }
+        /*footer*/
+        #footer{
+                display: flex;
+                justify-content: center;
+                background-color: rgba(25,26,30,1.00);
+                padding: 50px 0;
+            }
+            #footer .container{
+                display: inline-block;
+                color: white;
+                padding: 10px;
+                max-width: 800px;
+                width: 100%;
+                clear: both;
+            }
+            #footer .container .left{
+                width: 70%;
+                display: inline-block;
+                float: left;
+                text-align: left;
+            }
+            #footer .container .right{
+             display: inline-block;
+                float: left;
+                text-align: right;    
+            }
+    </style>
+    </head>
+    <body>
+        <div class="top">
+          <div class="container">
+            <div class="logo">
+              <img src="https://github.com/shhuangmust/html/raw/111-1/IMMUST_LOGO.JPG">
+              明新科技大學資訊管理系
+            </div>
+            <div class="top-nav">
+              <a href=>明新科大</a>
+              <a href=>明新管理學院</a>
+              <a href=>登入</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav">   
+            <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#banner">系所簡介</a></li>
+                <li><a href="#events">成員簡介</a></li>
+                <li><a href="#contact">相關資訊</a></li>
+            </ul>
+        </div>
+        <div class="slider">
+            <div class="flexslider" style="direction:rtl">
+                <ul class="slides">
+                  <li>
+                    <img src="https://github.com/shhuangmust/html/raw/111-1/slider1.JPG" />
+                  </li>
+                  <li>
+                    <img src="https://github.com/shhuangmust/html/raw/111-1/slider2.JPG" />
+                  </li>
+                  <li>
+                    <img src="https://github.com/shhuangmust/html/raw/111-1/slider3.JPG" />
+                  </li>
+                </ul>
+              </div>
+        </div>
+        <div id="banner">
+            <div class="container">
+                <h1>歷年教育部評鑑皆榮獲一等</h1>
+                <h1>明新科技大學資訊管理系</h1>
+                <h1>全國私立科大第一資管系</h1>
+            </div>
+        </div>
+        <div id="events">
+            <div class="container">
+                <header>
+                    <h2>師資介紹</h2>
+                </header>
+                <div class="faculty">
+                    <a class="teacher" href="">
+                        <img src="https://github.com/shhuangmust/html/raw/111-1/faculty1.jpg" />
+                        <span>黃老師</span>
+                    </a>
+                    <a class="teacher" href="">
+                        <img src="https://github.com/shhuangmust/html/raw/111-1/faculty2.jpg" />
+                        <span>李老師</span>
+                    </a>
+                    <a class="teacher" href="">
+                        <img src="https://github.com/shhuangmust/html/raw/111-1/faculty3.jpg" />
+                        <span>應老師</span>
+                    </a>
+                    <a class="teacher" href="">
+                        <img src="https://github.com/shhuangmust/html/raw/111-1/faculty4.jpg" />
+                        <span>陳老師</span>
+                    </a>
+                    <a class="teacher" href="">
+                        <img src="https://github.com/shhuangmust/html/raw/111-1/faculty5.jpg" />
+                        <span>鄭老師</span>
+                    </a>
+                    <a class="teacher" href="">
+                        <img src="https://github.com/shhuangmust/html/raw/111-1/faculty6.jpg" />
+                        <span>王老師</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+              <header class="header">
+                <h2>聯絡資訊</h2>
+              </header>
+              <div class="infos">
+                <div class="left">
+                    <b>明新科技大學管理學院大樓二樓</b>
+                    <span>304新竹縣新豐鄉新興路1號</span>
+                    <b> 電話:03-5593142</bclass=>
+                    <span>分機:3431、3432、3433</span>
+                    <b> 傳真:03-5593142</b>
+                    <span>分機:3440</span>
+                </div>
+                <div class="right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.185885150929!2d120.98912333466727!3d24.86332844316392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34683154faa8283b%3A0x92cb1c5564a574ef!2z5piO5paw56eR5oqA5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1536665837954" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <div class="left">&copy;Copyright 2022 MUST Department of Information Management. All rights reserved.</div>
+                <div class="right">維護者 Tony SHHuang</div>
+            </div>
+        </div>
+     </body>
+</html>
