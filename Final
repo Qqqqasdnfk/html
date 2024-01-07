@@ -1,0 +1,149 @@
+<html lang="en">
+<title>鄭立易 的期末作業 </title>
+<head>
+  <meta charset="UTF-8">
+  <title>您的網頁標題</title>
+  <style>
+    /* 在這裡可以添加 CSS 樣式來美化您的網頁 */
+  </style>
+</head>
+<body>
+  <!-- 頁首 -->
+  <header>
+    <h1>這是網頁標題</h1>
+    <h2> 鄭立易 期末作業</h2>
+    <nav>
+      <ul>
+        <!-- 下拉式快速連結 -->
+        <li><a href="#">https://www.google.com/?hl=zh-TW</a></li>
+        <li><a href="#">https://www.netflix.com/browse</a></li>
+        <li><a href="#">https://www.youtube.com/</a></li>
+        <!-- 在這裡增加更多連結 -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 圖片輪播 -->
+  <section class="slideshow">
+    <div class="slideshow-container">
+      <!-- 可以使用 JavaScript 或 CSS 來製作圖片輪播 -->
+      <!-- 在這裡添加輪播圖片 -->
+      <img src="4545.jpg" alt="圖片1">
+      <img src="w644.jpg" alt="圖片2">
+      <img src="1234.jpg" alt="圖片3">
+      <!-- 添加更多圖片 -->
+    </div>
+  </section>
+
+  <!-- 相關資訊 -->
+  <section class="info">
+    <h2>相關資訊</h2>
+    <p>這裡可以放置您的相關資訊和內容。</p>
+  </section>
+
+  <!-- 頁尾 -->
+  <footer>
+    <p>&copy; 2024 您的網頁名稱</p>
+  </footer>
+<br>
+
+  <!-- 其他自行增加的元素 -->
+  <section class="additional-content">
+    <h2>其他內容</h2>
+    <!-- 在這裡添加其他元素，如表單、列表、文字等 -->
+  </section>
+CSS   語法 <--
+<br>
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* 圖片輪播樣式 */
+.slideshow {
+  text-align: center;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.slideshow-container img {
+  width: 100%;
+  display: none;
+}
+
+/* 相關資訊樣式 */
+.info {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* 頁尾樣式 */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* 其他自行增加的元素樣式 */
+.additional-content {
+  padding: 20px;
+<br>
+    <table>
+    <tr>
+    <td>學校</td>
+    <td>招生人數</td>
+    <td>升學率</td>
+    <td>榜首</td>
+  </tr>
+  <tr>
+    <td>台灣大學</td>
+    <td>2000人</td>
+    <td>98.5%</td>
+    <td>74級分</td>
+  </tr>
+  <tr>
+    <td>台科大</td>
+    <td>1500人</td>
+    <td>97.75%</td>
+    <td>69級分</td>
+  </tr>
+  <tr>
+    <td>台南科大</td>
+    <td>1250人</td>
+    <td>96.65%</td>
+    <td>45級分</td>
+  </tr>
+  </table>
+<br>
+<ul>
+        新豐美食推薦<b>
+        <li>麥當勞</li>
+        <li>海底撈<i></li>
+        <li> 螺絲粉<b></li>
+</ul>
+
+</body>
+</html>
+</html>
